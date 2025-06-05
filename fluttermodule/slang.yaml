@@ -1,0 +1,3 @@
+namespaces: true # enable this feature
+output_directory: lib/i18n # optional
+output_file_name: translations.g.dart # set file name (mandatory)
