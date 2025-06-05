@@ -1,0 +1,11 @@
+ios_frameworks/
+.DS_Store
+fluttermodule/.dart_tool/
+fluttermodule/.flutter-plugins
+fluttermodule/.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+fluttermodule/build/
+
+rn_app/ios_frameworks/
