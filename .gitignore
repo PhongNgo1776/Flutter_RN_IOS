@@ -7,5 +7,6 @@ fluttermodule/.flutter-plugins-dependencies
 .pub-cache/
 .pub/
 fluttermodule/build/
+rn_app/ios/ios_frameworks/
 
 rn_app/ios_frameworks/

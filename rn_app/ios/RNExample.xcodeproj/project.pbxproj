@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,41 +12,7 @@
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		77E566FCFF23B23C5E153102 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		DAFD01982DF13B88003E42A3 /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFD01862DF13B88003E42A3 /* FlutterPluginRegistrant.xcframework */; };
-		DAFD01992DF13B88003E42A3 /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFD018B2DF13B88003E42A3 /* FlutterPluginRegistrant.xcframework */; };
-		DAFD019A2DF13B88003E42A3 /* webview_flutter_wkwebview.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFD01912DF13B88003E42A3 /* webview_flutter_wkwebview.xcframework */; };
-		DAFD019B2DF13B88003E42A3 /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFD01892DF13B88003E42A3 /* App.xcframework */; };
-		DAFD019C2DF13B88003E42A3 /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFD018E2DF13B88003E42A3 /* App.xcframework */; };
-		DAFD019D2DF13B88003E42A3 /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFD018F2DF13B88003E42A3 /* Flutter.xcframework */; };
-		DAFD019E2DF13B88003E42A3 /* webview_flutter_wkwebview.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFD018C2DF13B88003E42A3 /* webview_flutter_wkwebview.xcframework */; };
-		DAFD019F2DF13B88003E42A3 /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFD018A2DF13B88003E42A3 /* Flutter.xcframework */; };
-		DAFD01A02DF13BD1003E42A3 /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFD01842DF13B88003E42A3 /* App.xcframework */; };
-		DAFD01A12DF13BD1003E42A3 /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DAFD01842DF13B88003E42A3 /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DAFD01A22DF13BD2003E42A3 /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFD01852DF13B88003E42A3 /* Flutter.xcframework */; };
-		DAFD01A32DF13BD3003E42A3 /* Flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DAFD01852DF13B88003E42A3 /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DAFD01A42DF13BD4003E42A3 /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFD01902DF13B88003E42A3 /* FlutterPluginRegistrant.xcframework */; };
-		DAFD01A52DF13BD4003E42A3 /* FlutterPluginRegistrant.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DAFD01902DF13B88003E42A3 /* FlutterPluginRegistrant.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DAFD01A62DF13BD6003E42A3 /* webview_flutter_wkwebview.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFD01872DF13B88003E42A3 /* webview_flutter_wkwebview.xcframework */; };
-		DAFD01A72DF13BD6003E42A3 /* webview_flutter_wkwebview.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DAFD01872DF13B88003E42A3 /* webview_flutter_wkwebview.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DAFD01A92DF13D29003E42A3 /* FlutterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFD01A82DF13D29003E42A3 /* FlutterManager.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		DA2AC7682DF137AC00C9AD44 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				DAFD01A72DF13BD6003E42A3 /* webview_flutter_wkwebview.xcframework in Embed Frameworks */,
-				DAFD01A32DF13BD3003E42A3 /* Flutter.xcframework in Embed Frameworks */,
-				DAFD01A52DF13BD4003E42A3 /* FlutterPluginRegistrant.xcframework in Embed Frameworks */,
-				DAFD01A12DF13BD1003E42A3 /* App.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		13B07F961A680F5B00A75B9A /* RNExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,19 +24,6 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-RNExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = RNExample/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DAFD01842DF13B88003E42A3 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = App.xcframework; sourceTree = "<group>"; };
-		DAFD01852DF13B88003E42A3 /* Flutter.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:S8QB4VV633:FLUTTER.IO LLC"; lastKnownFileType = wrapper.xcframework; path = Flutter.xcframework; sourceTree = "<group>"; };
-		DAFD01862DF13B88003E42A3 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
-		DAFD01872DF13B88003E42A3 /* webview_flutter_wkwebview.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = webview_flutter_wkwebview.xcframework; sourceTree = "<group>"; };
-		DAFD01892DF13B88003E42A3 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = App.xcframework; sourceTree = "<group>"; };
-		DAFD018A2DF13B88003E42A3 /* Flutter.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:S8QB4VV633:FLUTTER.IO LLC"; lastKnownFileType = wrapper.xcframework; path = Flutter.xcframework; sourceTree = "<group>"; };
-		DAFD018B2DF13B88003E42A3 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
-		DAFD018C2DF13B88003E42A3 /* webview_flutter_wkwebview.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = webview_flutter_wkwebview.xcframework; sourceTree = "<group>"; };
-		DAFD018E2DF13B88003E42A3 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = App.xcframework; sourceTree = "<group>"; };
-		DAFD018F2DF13B88003E42A3 /* Flutter.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:S8QB4VV633:FLUTTER.IO LLC"; lastKnownFileType = wrapper.xcframework; path = Flutter.xcframework; sourceTree = "<group>"; };
-		DAFD01902DF13B88003E42A3 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
-		DAFD01912DF13B88003E42A3 /* webview_flutter_wkwebview.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = webview_flutter_wkwebview.xcframework; sourceTree = "<group>"; };
-		DAFD01A82DF13D29003E42A3 /* FlutterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlutterManager.swift; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -79,19 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAFD01A02DF13BD1003E42A3 /* App.xcframework in Frameworks */,
-				DAFD01A42DF13BD4003E42A3 /* FlutterPluginRegistrant.xcframework in Frameworks */,
 				0C80B921A6F3F58F76C31292 /* libPods-RNExample.a in Frameworks */,
-				DAFD01A62DF13BD6003E42A3 /* webview_flutter_wkwebview.xcframework in Frameworks */,
-				DAFD01982DF13B88003E42A3 /* FlutterPluginRegistrant.xcframework in Frameworks */,
-				DAFD01992DF13B88003E42A3 /* FlutterPluginRegistrant.xcframework in Frameworks */,
-				DAFD019A2DF13B88003E42A3 /* webview_flutter_wkwebview.xcframework in Frameworks */,
-				DAFD019B2DF13B88003E42A3 /* App.xcframework in Frameworks */,
-				DAFD019C2DF13B88003E42A3 /* App.xcframework in Frameworks */,
-				DAFD019D2DF13B88003E42A3 /* Flutter.xcframework in Frameworks */,
-				DAFD019E2DF13B88003E42A3 /* webview_flutter_wkwebview.xcframework in Frameworks */,
-				DAFD01A22DF13BD2003E42A3 /* Flutter.xcframework in Frameworks */,
-				DAFD019F2DF13B88003E42A3 /* Flutter.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +47,6 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
-				DAFD01A82DF13D29003E42A3 /* FlutterManager.swift */,
 			);
 			name = RNExample;
 			sourceTree = "<group>";
@@ -130,7 +70,6 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				DAFD01932DF13B88003E42A3 /* ios_frameworks */,
 				13B07FAE1A68108700A75B9A /* RNExample */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -159,49 +98,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		DAFD01882DF13B88003E42A3 /* Debug */ = {
-			isa = PBXGroup;
-			children = (
-				DAFD01842DF13B88003E42A3 /* App.xcframework */,
-				DAFD01852DF13B88003E42A3 /* Flutter.xcframework */,
-				DAFD01862DF13B88003E42A3 /* FlutterPluginRegistrant.xcframework */,
-				DAFD01872DF13B88003E42A3 /* webview_flutter_wkwebview.xcframework */,
-			);
-			path = Debug;
-			sourceTree = "<group>";
-		};
-		DAFD018D2DF13B88003E42A3 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				DAFD01892DF13B88003E42A3 /* App.xcframework */,
-				DAFD018A2DF13B88003E42A3 /* Flutter.xcframework */,
-				DAFD018B2DF13B88003E42A3 /* FlutterPluginRegistrant.xcframework */,
-				DAFD018C2DF13B88003E42A3 /* webview_flutter_wkwebview.xcframework */,
-			);
-			path = Profile;
-			sourceTree = "<group>";
-		};
-		DAFD01922DF13B88003E42A3 /* Release */ = {
-			isa = PBXGroup;
-			children = (
-				DAFD018E2DF13B88003E42A3 /* App.xcframework */,
-				DAFD018F2DF13B88003E42A3 /* Flutter.xcframework */,
-				DAFD01902DF13B88003E42A3 /* FlutterPluginRegistrant.xcframework */,
-				DAFD01912DF13B88003E42A3 /* webview_flutter_wkwebview.xcframework */,
-			);
-			path = Release;
-			sourceTree = "<group>";
-		};
-		DAFD01932DF13B88003E42A3 /* ios_frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DAFD01882DF13B88003E42A3 /* Debug */,
-				DAFD018D2DF13B88003E42A3 /* Profile */,
-				DAFD01922DF13B88003E42A3 /* Release */,
-			);
-			path = ios_frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -216,7 +112,6 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
-				DA2AC7682DF137AC00C9AD44 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -296,9 +191,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RNExample/Pods-RNExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RNExample/Pods-RNExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -335,9 +234,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RNExample/Pods-RNExample-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RNExample/Pods-RNExample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -351,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAFD01A92DF13D29003E42A3 /* FlutterManager.swift in Sources */,
 				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,12 +270,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z8D88L27W9;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"${PODS_ROOT}/hermes-engine/destroot/Library/Frameworks/universal\"",
-					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built\"",
-					"\"/Users/WORK/OFFICE/SSTECH/Flutter_RN_IOS/ios_frameworks\"/**",
-				);
 				INFOPLIST_FILE = RNExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -402,12 +298,6 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z8D88L27W9;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"${PODS_ROOT}/hermes-engine/destroot/Library/Frameworks/universal\"",
-					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built\"",
-					"\"/Users/WORK/OFFICE/SSTECH/Flutter_RN_IOS/ios_frameworks\"/**",
-				);
 				INFOPLIST_FILE = RNExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -496,10 +386,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -568,10 +455,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
