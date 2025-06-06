@@ -15,23 +15,13 @@ const { FlutterModule } = NativeModules;
 
 function App(): React.JSX.Element {
 
-  const checkEngine = async () => {
-    try {
-      const result = await FlutterModule.checkEngineStatus();
-      Alert.alert('Engine Status', result);
-    } catch (error) {
-      Alert.alert('Engine Error', `Failed to check engine: ${error.message}`);
-    }
-  };
 
   const openFlutter = async () => {
     try {
       const result = await FlutterModule.showFlutter();
       console.log('Success:', result);
-      Alert.alert('Success', result);
     } catch (error) {
       console.error('Error:', error);
-      Alert.alert('Error', `Failed to open Flutter: ${error.message}`);
     }
   };
 
@@ -57,9 +47,7 @@ function App(): React.JSX.Element {
           }}>
           Welcome to React Native!</Text>
 
-        <Button title="Check Engine Status" onPress={checkEngine} />
         <Button title="Open Flutter View" onPress={openFlutter} />
-        <Button title="Open Flutter with Route" onPress={openFlutterWithRoute} />
       </View>
     </SafeAreaView>
   );
