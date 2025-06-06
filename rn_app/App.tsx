@@ -1,13 +1,29 @@
-
 import React from 'react';
 import {
   StyleSheet,
   Text,
   SafeAreaView,
   View,
+  TouchableOpacity,
+  NativeModules,
+  ToastAndroid,
+  Platform,
+  Alert,
 } from 'react-native';
 
+const { FlutterModule } = NativeModules;
+
 function App(): React.JSX.Element {
+
+  const showFlutter = async () => {
+    try {
+      const result = await FlutterModule.showFlutter();
+      console.log(result);
+    } catch (error) {
+      Alert.alert('Info', error);
+    }
+  };
+
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.centeredView}>
@@ -18,6 +34,10 @@ function App(): React.JSX.Element {
             fontWeight: 'bold',
           }}>
           Welcome to React Native!</Text>
+
+        <TouchableOpacity style={styles.recButton} onPress={showFlutter}>
+          <Text style={styles.buttonText}>Open Flutter</Text>
+        </TouchableOpacity>
       </View>
     </SafeAreaView>
   );

@@ -24,8 +24,8 @@ target 'RNExample' do
   )
 
   pod 'Flutter', :path => './Frameworks'
-  pod 'FlutterPluginRegistrant', :path => './Frameworks'
-  pod 'webview_flutter_wkwebview', :path => './Frameworks'
+  # pod 'FlutterPluginRegistrant', :path => './Frameworks'
+  # pod 'webview_flutter_wkwebview', :path => './Frameworks'
   pod 'StandingTall', :path => './Frameworks'
 
   post_install do |installer|

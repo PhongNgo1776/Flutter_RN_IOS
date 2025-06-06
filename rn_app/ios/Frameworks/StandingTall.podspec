@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.author           = { 'Your Name' => 'your.email@example.com' }
   s.source           = { :path => '.' }
   s.platform         = :ios, '13.0' # Match your project’s deployment target
-  s.vendored_frameworks = 'App.framework'
+  s.vendored_frameworks = 'App.xcframework'
   s.requires_arc     = true
 end
