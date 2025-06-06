@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # webview_flutter: 4.11.0
+  webview_flutter: 4.11.0
 
 
 dev_dependencies:
@@ -19,6 +19,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   module:
+    ios: true
     androidX: true
     androidPackage: au.org.standingtall
     iosBundleIdentifier: au.org.standingtall

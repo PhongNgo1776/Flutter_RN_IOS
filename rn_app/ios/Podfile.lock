@@ -1,9 +1,13 @@
 PODS:
+  - App (1.0.0)
   - boost (1.84.0)
   - DoubleConversion (1.1.6)
   - fast_float (6.1.4)
   - FBLazyVector (0.79.1)
-  - Flutter (1.0.0)
+  - Flutter (1.0.0):
+    - App
+    - FlutterPluginRegistrant
+  - FlutterPluginRegistrant (1.0.0)
   - fmt (11.0.2)
   - glog (0.3.5)
   - hermes-engine (0.79.1):
@@ -1656,15 +1660,17 @@ PODS:
     - React-perflogger (= 0.79.1)
     - React-utils (= 0.79.1)
   - SocketRocket (0.7.1)
-  - StandingTall (1.0.0)
+  - webview_flutter_wkwebview (1.0.0)
   - Yoga (0.0.0)
 
 DEPENDENCIES:
+  - App (from `./Frameworks`)
   - boost (from `../node_modules/react-native/third-party-podspecs/boost.podspec`)
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - fast_float (from `../node_modules/react-native/third-party-podspecs/fast_float.podspec`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - Flutter (from `./Frameworks`)
+  - FlutterPluginRegistrant (from `./Frameworks`)
   - fmt (from `../node_modules/react-native/third-party-podspecs/fmt.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - hermes-engine (from `../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
@@ -1732,7 +1738,7 @@ DEPENDENCIES:
   - ReactAppDependencyProvider (from `build/generated/ios`)
   - ReactCodegen (from `build/generated/ios`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
-  - StandingTall (from `./Frameworks`)
+  - webview_flutter_wkwebview (from `./Frameworks`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -1740,6 +1746,8 @@ SPEC REPOS:
     - SocketRocket
 
 EXTERNAL SOURCES:
+  App:
+    :path: "./Frameworks"
   boost:
     :podspec: "../node_modules/react-native/third-party-podspecs/boost.podspec"
   DoubleConversion:
@@ -1749,6 +1757,8 @@ EXTERNAL SOURCES:
   FBLazyVector:
     :path: "../node_modules/react-native/Libraries/FBLazyVector"
   Flutter:
+    :path: "./Frameworks"
+  FlutterPluginRegistrant:
     :path: "./Frameworks"
   fmt:
     :podspec: "../node_modules/react-native/third-party-podspecs/fmt.podspec"
@@ -1881,17 +1891,19 @@ EXTERNAL SOURCES:
     :path: build/generated/ios
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
-  StandingTall:
+  webview_flutter_wkwebview:
     :path: "./Frameworks"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
+  App: 7b56f45c784b4b69b52e65fe132ea75f6f057d25
   boost: 7e761d76ca2ce687f7cc98e698152abd03a18f90
   DoubleConversion: cb417026b2400c8f53ae97020b2be961b59470cb
   fast_float: 06eeec4fe712a76acc9376682e4808b05ce978b6
   FBLazyVector: abbac80c6f89e71a8c55c7e92ec015c8a9496753
-  Flutter: a788793d84c082aaa17a4fb4bebba7a19fa524bc
+  Flutter: 47f4363c02d1a8d2bea90b49987a4cc67a7e50f6
+  FlutterPluginRegistrant: 95fdd45759492c0c56149fbf2f2ea0ad5d4f3bb3
   fmt: a40bb5bd0294ea969aaaba240a927bd33d878cdd
   glog: 5683914934d5b6e4240e497e0f4a3b42d1854183
   hermes-engine: c32f2e405098bc1ebe30630a051ddce6f21d3c2e
@@ -1958,9 +1970,9 @@ SPEC CHECKSUMS:
   ReactCodegen: 86758c0e13c6b245ff0cd7123cc5e8910d67546a
   ReactCommon: aa48e4fddbc6a0afa19dca39a1b6016c150b5db4
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
-  StandingTall: fa1efbcaeaf13d8564c7b31d11e429d6946576c3
+  webview_flutter_wkwebview: 1058dfd63c372067dce334c8c19462371f97f053
   Yoga: d15f5aa644c466e917569ac43b19cbf17975239a
 
-PODFILE CHECKSUM: eef94430b08237f32b3fee92994eab2bee2c5c1d
+PODFILE CHECKSUM: 4f135ecd07600f9a3d4459af46d3da689dd76a7b
 
 COCOAPODS: 1.16.2
