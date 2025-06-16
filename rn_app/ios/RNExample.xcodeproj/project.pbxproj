@@ -345,7 +345,7 @@
 					"\"$(PODS_ROOT)/FlutterPluginRegistrant/FlutterPluginRegistrant.xcframework/ios-arm64/FlutterPluginRegistrant.framework/Headers\"",
 				);
 				INFOPLIST_FILE = RNExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +454,7 @@
 					"\"$(PODS_ROOT)/FlutterPluginRegistrant/FlutterPluginRegistrant.xcframework/ios-arm64/FlutterPluginRegistrant.framework/Headers\"",
 				);
 				INFOPLIST_FILE = RNExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -532,7 +532,7 @@
 					"\"$(PODS_ROOT)/Frameworks/Flutter.xcframework/ios-arm64/Flutter.framework/Headers\"",
 					"\"$(PODS_ROOT)/Frameworks/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -609,7 +609,7 @@
 					"\"/Users/WORK/OFFICE/SSTECH/Flutter_RN_IOS/rn_app/ios/Frameworks/Flutter.xcframework/ios-arm64/Flutter.framework/Headers\"",
 					"\"/Users/WORK/OFFICE/SSTECH/Flutter_RN_IOS/rn_app/ios/Frameworks/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",

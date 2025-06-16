@@ -25,17 +25,6 @@ function App(): React.JSX.Element {
     }
   };
 
-  const openFlutterWithRoute = async () => {
-    try {
-      const result = await FlutterModule.showFlutterWithRoute('/myFlutterRoute');
-      console.log('Success:', result);
-      Alert.alert('Success', result);
-    } catch (error) {
-      console.error('Error:', error);
-      Alert.alert('Error', `Failed to open Flutter with route: ${error.message}`);
-    }
-  };
-
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.centeredView}>
